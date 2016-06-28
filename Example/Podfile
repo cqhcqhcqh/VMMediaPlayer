@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MediaPlayerLib_Example' do
+  pod 'MediaPlayerLib', :path => '../'
+
+  target 'MediaPlayerLib_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

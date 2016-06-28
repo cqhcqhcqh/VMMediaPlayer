@@ -1,0 +1,6 @@
+framework module MediaPlayerLib {
+  umbrella header "MediaPlayerLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

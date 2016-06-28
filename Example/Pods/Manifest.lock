@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+  - MediaPlayerLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MediaPlayerLib (from `../`)
+
+EXTERNAL SOURCES:
+  MediaPlayerLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+  MediaPlayerLib: da148faf99a0d9b0ad661dfca682c65e3ba3749f
+
+PODFILE CHECKSUM: c8a9ef99ed89ffb30bc70a143cb4080dee08752c
+
+COCOAPODS: 1.0.1
